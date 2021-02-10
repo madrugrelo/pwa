@@ -16,7 +16,7 @@
    "density": "5.0"
   }
 ],
-  "start_url": "/pwa/",
+  "start_url": "/",
   "background_color": "#c23336",
   "display": "fullscreen",
   "orientation": "portrait",
