@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
 navigator.serviceWorker
-.register('/pwa/sw.js')
+.register('/sw.js')
 .then(() => { console.log('Service Worker Registered'); });
 }
 window.addEventListener('beforeinstallprompt', (e) => {
