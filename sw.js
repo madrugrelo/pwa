@@ -1,9 +1,7 @@
 // sw.js
-const cacheName = "PWA";
+const cacheName = "pWa";
 const filesToCache = ["index.html"];
-
 self.addEventListener("install", function(event) {
-  // Perform install steps
   console.log("[Servicework] Install");
   event.waitUntil(
     caches.open(cacheName).then(function(cache) {
