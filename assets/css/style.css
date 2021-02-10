@@ -1,39 +1,6 @@
 /*
  * Style v1.0.0
  * Copyright 2021 Madrugrelo
- * The MIT License (MIT). Please see (https://github.com/madrugrelo/madrugrelo.github.io/blob/master/LICENSE) for more information.
+ * The MIT License (MIT). Please see (https://github.com/madrugrelo/pwa/blob/master/LICENSE) for more information.
  */
- 
- /*RESET*/
-* {
-	margin:0;
-	padding:0;
-	border:0;
-	font-size:100%;
-	font:inherit;
-	vertical-align:baseline;
-}
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{
-	display:block;
-}
-*[hidden]{
-	display:none;
-}
-body{
-	line-height:1;
-}
-html{
-	font-family:Karla,sans-serif;
-	font-size:16px;
-	font-weight:700;
-	box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-}
-*,*:before,*:after{
-	box-sizing:inherit;
-}
-
-/*DEFAULT*/
-.main{-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding-left:12px;padding-right:12px;padding-top:24px;padding-bottom:24px;height:100%;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
-.container{margin:0 auto;height:100%;width:100%;max-width:680px;}
+*{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}[hidden]{display:none}body{line-height:1}html{font-family:Times New Roman,sans-serif;font-size:16px;font-weight:700;box-sizing:border-box}.main{margin:0 auto;padding-top:25px;height:100%;width:100%;max-width:680px}
